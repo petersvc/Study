@@ -15,7 +15,7 @@
     echo "Preço do produto: $preco_produto<br/>";
     $preco_produto *= $porcentagem;
     echo "Preço do produto com 10% de desconto: $preco_produto";
-    $preco_produto = $_GET["p"]; //reseta a variável
+    $preco_produto = $_GET["p"]; //reseta a variável preço
     echo "<br/>Com 10% de aumento: ".($preco_produto + $preco_produto * $porcentagem);
   ?>
 </body>
