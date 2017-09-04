@@ -6,6 +6,16 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <link rel="stylesheet" href="css/style.css">
+  <style media="screen">
+    h1
+    {
+      color: green;
+    }
+    h2
+    {
+      color: gray;
+    }
+  </style>
 </head>
 <body>
   <h1>Estudando PHP</h1>
