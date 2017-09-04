@@ -4,11 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Variáveis</title>
+  <title>operadores aritméticos</title>
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <h1>Variáveis em PHP</h1>
+  <h1>operadores aritméticos</h1>
   <?php
     $num1 = 30;
     $num2 = 20;

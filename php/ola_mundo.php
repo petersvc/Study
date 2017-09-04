@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <h1>Estudando PHP</h1>
+  <h1>Olá mundo</h1>
   <?php
     echo "Olá mundo! isso é um <i>echo</i>";
   ?>
