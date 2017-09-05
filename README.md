@@ -1,2 +1,2 @@
 # Study
-Codes developed by solving worksheets and studying program languages
+Codes developed by solving worksheets and studying programming languages
