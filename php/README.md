@@ -22,6 +22,6 @@
 <h2>Aprendendo o básico</h2>
 <br/>
 <p>
-  Os arquivos presentes nesse repositórios são todos frutos do aprendizado de PHP através do canal <i>Curso em Video</i>,
+  Os arquivos presentes nesse repositórios são todos frutos do aprendizado de PHP através do canal <a href="https://www.youtube.com/watch?v=F7KzJ7e6EAc&t=6s" target="blank"><i>Curso em Video</i></a>,
   administrado pelo brilhante Gustavo Guanabara, recomendo assistir/aprender PHP atráves das video aulas presentes no referido canal. No mais, bons estudos!
 </P>
