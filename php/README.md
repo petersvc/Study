@@ -9,12 +9,12 @@
 <h2>Instalação</h2>
 <br/>
 <p>
-  A linguagem é definida como server-side, então para estudá-la é necessário ter em mente que você precisará transformar seu computador em um servidor instalando algumas dependencias e elas são: Apache, Mysql e PHP.<br/>
+  A linguagem é definida como server-side, então para estudá-la é necessário ter em mente que você precisará transformar seu computador em um servidor instalando algumas dependencias e elas são: <i>Apache, Mysql</i> e <i>PHP</i>.<br/>
   Se você ler com atenção verá que a sigla formada pelas dependencias será AMP. Então caso queira estudar PHP você precisará de um pacote AMP, que no Windows (W) é chamado WAMP, no MAC é MAMP e no linux, LAMP.
-  Existem várias alternativas entre AMPs, mas recomendo o uso do XAMPP, pois é um AMP cross-plataform, e dessa maneira o uso dele é semelhante nesses três Sistemas Operacionais.
+  Existem várias alternativas entre AMPs, mas recomendo o uso do <i>XAMPP</i>, pois é um AMP cross-plataform, e dessa maneira o uso dele é semelhante nesses três Sistemas Operacionais.
   <br/>
-  Você pode baixá-lo por aqui: <a href="https://www.apachefriends.org/pt_br/download.html" target="blank">XAMPP</a>
-  <br/>
-  Uma vez baixado, instale o pacote. Após instalado, abra o programa e inicie os módulos <i>APACHE</i> e <i>MYSQL</i>
+  Você pode baixá-lo por esse link: <a href="https://www.apachefriends.org/pt_br/download.html" target="blank"><i>XAMPP</i></a>
+  <br/><br/>
+  Uma vez baixado, instale o pacote. Após instalado, abra o programa e inicie os módulos <i>Apache</i> e <i>Mysql</i>
   Agora seus sites, páginas, arquivos em <i>.php</i> terão que ser salvos dentro do diretório onde o XAMPP foi instalado, na pasta <i>htdocs</i> e serão exibidos no navegador web através do endereço <i>localhost/arquivo.php</i>
 </P>
