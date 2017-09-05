@@ -5,7 +5,6 @@
   <br/>
   (The PHP Group)
 </p>
-<br/>
 <h2>Instalação</h2>
 <br/>
 <p>
