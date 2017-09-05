@@ -16,5 +16,13 @@
   Você pode baixá-lo por esse link: <a href="https://www.apachefriends.org/pt_br/download.html" target="blank"><i>XAMPP</i></a>
   <br/><br/>
   Uma vez baixado, instale o pacote. Após instalado, abra o programa e inicie os módulos <i>Apache</i> e <i>Mysql</i>
-  Agora seus sites, páginas, arquivos em <i>.php</i> terão que ser salvos dentro do diretório onde o XAMPP foi instalado, na pasta <i>htdocs</i> e serão exibidos no navegador web através do endereço <i>localhost/arquivo.php</i>
+  <br/>
+  E por fim, seus arquivos criados em <i>.php</i> terão que ser salvos dentro do diretório onde o XAMPP foi instalado, na pasta <i>htdocs</i> e serão exibidos no navegador web através do endereço <i>localhost/arquivo.php</i>
+  <br/>
+</P>
+<h2>Aprendendo o básico</h2>
+<br/>
+<p>
+  Os arquivos presentes nesse repositórios são todos frutos do aprendizado de PHP através do canal <i>Curso em Video</i>,
+  administrado pelo brilhante Gustavo Guanabara, recomendo assistir/aprender PHP atráves das video aulas presentes no referido canal. No mais, bons estudos!
 </P>
