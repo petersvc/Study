@@ -1,2 +1,2 @@
 # Study
-Codes developed on classroom by solving problems
+Codes developed by solving worksheets and studying program languages
