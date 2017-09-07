@@ -8,11 +8,12 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-<!--<?php
+  <?php/*
     $valor = sqrt($_POST["n"]);
     echo "Digitou: $valor";
+    */
   ?>
--->
+
   <?php
     $nome = isset($_POST["nome"]) ? $_POST["nome"] : "não informado";
     $idade = isset($_POST["ano"]) ? 2017 - $_POST["ano"] : "não informado";
