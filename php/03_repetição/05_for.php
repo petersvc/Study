@@ -12,7 +12,7 @@
     <h1>For</h1>
     <br>
 
-    <form action="13_for2.php" method="post">
+    <form action="05_for.php" method="post">
       <select class="" name="n">
         <?php
           for ($i = 1; $i < 11; $i++)

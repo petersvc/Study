@@ -12,9 +12,9 @@
     <h1>For</h1>
     <br>
 
-    <form action="13_for.php" method="post">
+    <form action="04_for.php" method="post">
       <input type="text" name="f" placeholder="Digite um número e clique um enter" size="28" autofocus>
-    </form>      
+    </form>
     <br>
 
     <?php

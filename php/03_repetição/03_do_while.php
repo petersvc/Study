@@ -13,7 +13,7 @@
   <br>
   <h2> Calculo fatorial</h2>
 
-  <form action="12_do_while2.php" method="post">
+  <form action="03_do_while.php" method="post">
     <input type="text" name="fat" placeholder="Digite um número e clique um enter" size="28" autofocus>
   </form>
   <br>
