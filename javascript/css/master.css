@@ -26,14 +26,11 @@ body
   margin-top: 2%;
   margin: 4%;
   width: 100%;
-  text-align: ;
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: column;
 
 }
 .container h2
 {
+  line-height: 200%;
   font-size: 1.4em;
   color: rgba(255,255,255,1);
   font-family: roboto;
@@ -41,7 +38,7 @@ body
 }
 .container p
 {
-  line-height: 300%;
+  line-height: 130%;
   font-size: 1.4em;
   color: rgba(80,80,80,1);
   font-family: roboto;
@@ -66,7 +63,7 @@ figure, figcaption, footer, header, hgroup,menu, nav, output, ruby, section, sum
 /* HTML5 display-role reset for older browsers */
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
-body {line-height: 1; font-size: 10px ; font-size: 1em ; overflow: hidden;}
+body {line-height: 1; font-size: 10px ; font-size: 1em ; overflow-x: hidden;}
 html {font-size: 100%;}
 ol, ul {list-style: none;}
 blockquote, q {quotes: none;}
