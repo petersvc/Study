@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../css/master.css">
+  <title>Document</title>
+</head>
+<body>
+  <h1 id="tit">JS</h1>
+  <h2 id="ch">Cap. 02</h2>
+  <div class="container">
+    <h2 class="iten">triangle loop (for)</h2>
+    <p class="iten1" id="triangle"></p>
+    <h2 class="iten">triangle loop (while)</h2>
+    <p class="iten2" id="triangle2"></p>
+  </div>
+</body>
+
+<!--Triangle com for-->
+
+<script>
+  var t = document.getElementById("triangle");
+  var t2 = "#";
+  for (var i = 0; i < 7; i++)
+  {
+    t.innerHTML += t2 + "<br/>";
+    t2 += "#";
+  }
+</script>
+
+<!--Triangle com while -->
+
+<script type="text/javascript">
+  var t = document.getElementById("triangle2");
+  var t2 = "#";
+  while (t2.length < 8)
+  {
+    t.innerHTML += t2 + "<br/>";
+    t2 += "#";
+  }
+  t.innerHTML += t.innerHTML.length;
+</script>
+</html>

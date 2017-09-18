@@ -38,3 +38,5 @@ do
     document.getElementById("iten7_1").innerHTML += ", ";
   }
 } while (i >= 0);
+
+// triangle
