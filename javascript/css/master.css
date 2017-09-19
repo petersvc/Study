@@ -24,7 +24,7 @@ body
 }
 .container {
   margin-top: 2%;
-  margin: 4%;
+  margin-left: 4%;
   width: 100%;
 }
 .container h2
@@ -37,7 +37,10 @@ body
 }
 .container p
 {
-  line-height: 130%;
+  margin-top: 1%;
+  max-width: 35%;
+  word-wrap: break-word;
+  line-height: 150%;
   font-size: 1.4em;
   color: rgba(80,80,80,1);
   font-family: roboto;

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../css/master.css">
+  <title>Document</title>
+</head>
+<body>
+  <h1 id="tit">JS</h1>
+  <h2 id="ch">Cap. 02</h2>
+  <div class="container">
+    <h2 class="iten">FizzBuzz (while)</h2>
+    <p class="iten1" id="fb"></p>
+  </div>
+</body>
+
+<!--Triangle com for-->
+
+<script>
+  var fb = document.getElementById("fb");
+  var i = 1;
+  while (i < 101) {
+    if(i % 3 == 0 && i % 5 == 0){
+      fb.innerHTML += "fizzbuzz, ";
+    } else if (i % 3 == 0) {
+        fb.innerHTML += "fizz, ";
+      } else if (i % 5 == 0) {
+          fb.innerHTML += "buzz, ";
+        } else {
+            fb.innerHTML += i + ", ";
+          }
+    i++;
+  }
+</script>
+
+</html>

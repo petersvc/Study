@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../css/master.css">
+  <style>
+  #cb {
+    font-family: monospace;
+  }
+  </style>
+  <title>Document</title>
+</head>
+<body>
+  <h1 id="tit">JS</h1>
+  <h2 id="ch">Cap. 02</h2>
+  <div class="container">
+    <h2 class="iten">Chessboard</h2>
+    <p class="iten1" id="cb"></p>
+  </div>
+</body>
+
+<!--Chessboard with while and for-->
+
+<script>
+  var cb = document.getElementById("cb");
+  var i = 0;
+  var j = 0;
+  var size = 8;
+  var line = "";
+  while (i < size) {
+    for (j = 0; j < size; j++) {
+      if (i % 2 == 0) {
+        if (j % 2 == 0) {
+          line += "&nbsp;";
+        } else {
+            line += "#";
+          }
+      } else if (j % 2 == 0) {
+          line += "#";
+        } else {
+            line += "&nbsp;";
+          }
+
+    }
+    cb.innerHTML += line;
+    cb.innerHTML += "<br/> ";
+    line = "";
+    i++;
+  }
+</script>
+
+</html>
