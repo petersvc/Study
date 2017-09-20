@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../css/master.css">
+  <title>Document</title>
+</head>
+<body>
+  <h1 id="tit">JS</h1>
+  <h2 id="ch">Chapter 03</h2>
+  <div class="container">
+    <h2 class="iten">function square</h2>
+    <p class="iten1" id="fu"></p>
+    <h2 class="iten">function square 2</h2>
+    <p class="iten2" id="fu2"></p>
+    <h2 class="iten">function power</h2>
+    <p class="iten3" id="fu3"></p>
+    <h2 class="iten">function shorter declaration</h2>
+    <p class="iten4" id="fu4"></p>
+    <h2 class="iten">function chicken</h2>
+    <p class="iten5" id="fu5"></p>
+  </div>
+</body>
+
+<!--square: function that returns something-->
+
+<script>
+
+
+  var fu = document.getElementById("fu");
+  var square = function(x) {
+    return x * x;
+  }
+  fu.innerHTML += square(12);
+
+</script>
+
+<!--square2: function without return-->
+
+<script>
+  var square2 = function(id, x) {
+    document.getElementById(id).innerHTML += x * x;
+  }
+  square2("fu2", 8);
+</script>
+
+<!--power-->
+
+<script>
+  var power = function(id, base, exponent) {
+    var multiplier = 1;
+    var i = 0;
+    while(i < exponent) {
+      multiplier *= base;
+      i++;
+    }
+    document.getElementById(id).innerHTML += multiplier;
+  }
+  power("fu3", 8, 3);
+</script>
+
+<!--shorter declaration-->
+
+<script>
+  function shorter(id, phrase) {
+    document.getElementById(id).innerHTML += phrase;
+  }
+  shorter("fu4", "function shorter(id, phrase) {<br/>}");
+</script>
+
+<!-- Function chicken -->
+
+<script>
+  function chicken() {
+    return egg();
+  }
+  function egg() {
+    return chicken();
+  }
+  //document.getElementById("fu5").innerHTML += chicken() +" came first.";
+  document.getElementById("fu5").innerHTML += "infinite back-and-forth";
+  </script>
+
+</html>
