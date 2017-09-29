@@ -7,6 +7,14 @@ for (var i = 0; i < tam; i++) {
     fu.innerHTML += "Nota " + (i+1) + ": " + nota[i] + "<br/>";    
     ac+= 4;
 }
-var form = document.querySelector(".inp").value;
+
 var fu2 = document.getElementById("fu2");
-fu2.innerHTML = form;
+var button = document.querySelector("#button");
+button.onclick = function(){
+    var data = document.querySelector(".inp").value;
+    fu2.innerHTML += data;
+};
+var button2 = document.querySelector("#button2");
+button2.onclick = function(){
+    fu2.innerHTML = this.innerHTML.toUpperCase();
+};
