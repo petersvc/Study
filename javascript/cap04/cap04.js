@@ -7,3 +7,6 @@ for (var i = 0; i < tam; i++) {
     fu.innerHTML += "Nota " + (i+1) + ": " + nota[i] + "<br/>";    
     ac+= 4;
 }
+var form = document.querySelector(".inp").value;
+var fu2 = document.getElementById("fu2");
+fu2.innerHTML = form;
