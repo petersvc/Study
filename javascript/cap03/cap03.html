@@ -21,6 +21,8 @@
     <p class="iten4" id="fu4"></p>
     <h2 class="iten">function chicken</h2>
     <p class="iten5" id="fu5"></p>
+    <h2 class="iten">function factorial</h2>
+    <p class="iten5" id="fu6"></p>
   </div>
 </body>
 
@@ -59,28 +61,42 @@
     document.getElementById(id).innerHTML += multiplier;
   }
   power("fu3", 8, 3);
-</script>
-
-<!--shorter declaration-->
-
-<script>
-  function shorter(id, phrase) {
-    document.getElementById(id).innerHTML += phrase;
-  }
-  shorter("fu4", "function shorter(id, phrase) {<br/>}");
-</script>
-
-<!-- Function chicken -->
-
-<script>
-  function chicken() {
-    return egg();
-  }
-  function egg() {
-    return chicken();
-  }
-  //document.getElementById("fu5").innerHTML += chicken() +" came first.";
-  document.getElementById("fu5").innerHTML += "infinite back-and-forth";
   </script>
+
+  <!--shorter declaration-->
+
+  <script>
+    function shorter(id, phrase) {
+      document.getElementById(id).innerHTML += phrase;
+    }
+    shorter("fu4", "function shorter(id, phrase) {<br/>}");
+  </script>
+
+  <!-- Function chicken -->
+
+  <script>
+    function chicken() {
+      return egg();
+    }
+    function egg() {
+      return chicken();
+    }
+    //document.getElementById("fu5").innerHTML += chicken() +" came first.";
+    document.getElementById("fu5").innerHTML += "infinite back-and-forth";
+  </script>
+
+  <!-- Function factorial -->
+
+  <script>
+    function fa(n){
+      for(let i = n - 1; i > 0 ; i--){
+        n *= i;
+      }
+      return n;
+    }
+
+    document.querySelector("#fu6").innerHTML = fa(5);
+  </script>
+
 
 </html>
