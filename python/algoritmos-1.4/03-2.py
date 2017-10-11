@@ -8,7 +8,7 @@ dia_atual = int(now.day)
 mes_atual = int(now.month)
 ano_atual = int(now.year)
 
-if mes_atual >= mes_nasc & dia_atual >= dia_nasc:
+if mes_atual >= mes_nasc and dia_atual >= dia_nasc:
     print(ano_atual-ano_nasc)
 else:
     print(ano_atual-ano_nasc-1)
