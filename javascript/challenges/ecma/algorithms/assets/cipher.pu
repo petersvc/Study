@@ -1,0 +1,10 @@
+@startuml
+skinparam classAttributeIconSize 0
+skinparam monochrome true
+hide circle
+
+class Cipher {
+  constructor()
+  rot(msg: String, rotate: Number): String
+}
+@enduml

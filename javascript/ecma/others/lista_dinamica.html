@@ -1,0 +1,9 @@
+<ul></ul>
+
+<script>
+    const names = ['Bill Gates', 'Mark Zuckerberg', 'Elon Musk', 'Larry Page', 'Sergey Brin']
+    let ul = document.querySelector('ul')
+    for(value of names){         
+        ul.insertAdjacentHTML('afterbegin', `<li>${value}</li>`)
+    }
+</script>

@@ -1,0 +1,24 @@
+<h1>List Generator</h1>
+<input type="text" name="qtd" id="qtd" placeholder="Items quantity">
+<button>Generate</button>
+<ul></ul>
+<script>
+    const qtdElm = document.querySelector('input[name=qtd]')
+    const btn = document.querySelector('button')
+    const ul = document.querySelector('ul')
+
+    btn.addEventListener('click', function(){
+        let qtdValue = qtdElm.value
+        let result
+
+        if (qtdValue == 0)
+            result = ''
+        else
+            result = `<li>Item 1</li>`
+
+        for(let i = 2; i <= qtdValue; i++)
+            result += `<li>item ${i}</li>`
+            
+        ul.innerHTML = result
+    })
+</script>

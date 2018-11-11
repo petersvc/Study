@@ -1,0 +1,11 @@
+@startuml
+skinparam classAttributeIconSize 0
+skinparam monochrome true
+hide circle
+
+class Triangle {
+  sides: Array<Number>
+  constructor(a Number, b Number, c Number)
+  kind(): String
+}
+@enduml
