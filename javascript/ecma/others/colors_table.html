@@ -1,0 +1,46 @@
+<h1>Color Names</h1>
+<table>
+    <thead>
+    <tr>
+        <th>Keyword</th>
+        <th>RGB hex value</th>
+        <th>Color Preview</th>
+    </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+
+<script>
+
+const json = 'https://ifpb.github.io/javascript-exercises/w3c/color-names/code/data/css-color-names.json'
+const trtd = document.querySelector('table tbody')
+
+fetch(json) // Tem como usar um json local?
+  .then(response => response.json())
+  .then(colorsObject => {
+    console.log(colorsObject)  
+    for (colorName in colorsObject) {      
+        trtd.insertAdjacentHTML('beforeend',
+        `<tr>
+            <td>${colorName}</td>
+            <td>${colorsObject[colorName]}</td>
+            <td style="background: ${colorName}"></td>
+        </tr>`
+        )
+    }
+  })
+
+</script>
+
+<style>
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    }
+    
+    table {
+    margin: auto;
+    text-align: left;
+}
+</style>
