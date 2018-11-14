@@ -63,23 +63,11 @@ function cleaner(){
     imcElm.style.backgroundColor = "transparent"
 }
 
-let keep
-
-if(heightElm.value == 2)
-    heightElm.value += '.'
-
-
-heightElm.addEventListener('keyup', function(event){
-
-    if (event.key < '3' && heightElm.value.length == 0){
-        keep = heightElm.value
-        keep += '.'
-        return keep
+heightElm.addEventListener('keyup', function(){
+    if (event.key < '3' && heightElm.value.length == 2){
+        let keeper
+        keeper = heightElm.value.split('')
+        keeper.splice(1, 0, '.')
+        heightElm.value = keeper.join('')
    }
-/* 
-   if (event.key < '3' && heightElm.value.length == 1){
-        heightElm.value += '.'
-
-   }
-*/ 
 })
