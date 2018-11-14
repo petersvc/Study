@@ -64,7 +64,7 @@ function cleaner(){
 }
 
 heightElm.addEventListener('keyup', function(){
-    if (event.key < '3' && heightElm.value.length == 2){
+    if (event.key < '9' && heightElm.value.length == 2){
         let keeper
         keeper = heightElm.value.split('')
         keeper.splice(1, 0, '.')
